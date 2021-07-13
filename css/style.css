@@ -9,6 +9,11 @@ body {
 
 /* Custom */
 
+.footlogo{
+    width: 25% !important;
+    top: 15% !important;
+}
+
 .button-style2 {
     padding: 7px 10px;
     border: none;
@@ -1057,21 +1062,22 @@ h3.title-w3-2 {
 /* stats */
 .stats {
     background: url(../images/bg1.jpg) no-repeat center;
-    background-size: cover;
+    background-size: contain;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
+    opacity:0.9;
 }
 
 .stats-main-w3pvt {
-    background: rgba(255, 255, 255, 0.18);
+    background: rgba(0, 0, 0, 0.493);
     padding: 4em;
-    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.527);
 }
 
 h3.counter {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 3em;
     font-weight: 700;
     margin-bottom: 10px;
@@ -1249,7 +1255,7 @@ button.btn-w3pvt {
 /* middle section */
 .text {
     background: #39cc9c;
-    background: url(../images/3.jpg) no-repeat center;
+    background: url(../images/new2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
